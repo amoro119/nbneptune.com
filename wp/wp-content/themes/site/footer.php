@@ -10,7 +10,6 @@
  * @since Twenty Ten 1.0
  */
 ?>
-	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
 		<div class="copyright">

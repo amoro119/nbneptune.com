@@ -73,8 +73,4 @@
 			<img src="/images/rss.gif">
 		</div>
 		<div class="clear"></div>
-		<div class="slideshow">
-		   <img src="/images/slideshow.jpg">
-		</div>
     </div>
-    <div id="main">

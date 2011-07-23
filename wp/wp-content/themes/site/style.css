@@ -1,5 +1,5 @@
 /*
-Theme Name: Teenga
+Theme Name: nbneptune
 Author: xtunes.cc
 
 */
@@ -178,19 +178,39 @@ a:hover { color: #8fb931; }
  *
  * Author: andrew
  */
-
+textarea{background:#fff;}
 #container { margin:0 auto; width:960px;}
 .logo{float:left;}
 #access{float:left;}
 #access ul{list-style:none;}
 #access ul li{float:left;height:113px;width:77px;background-image: url('images/nav-bg.gif');background-repeat:no-repeat;background-position:0 -113px;text-align:center;margin-left:24px;display:inline;}
-#access ul li a{padding-top:80px;display:block;font-size:14px;}
+#access ul li a{padding-top:80px;display:block;font-size:14px;color:#000;}
 .topbar{background: url('images/topbar-bg.gif') no-repeat 0 0;width:960px;height:36px;margin-top:25px;line-height:36px;}
+.home .topbar{margin-bottom:7px;}
 .topbar ul{list-style:none;}
 .topbar ul li{float:left;}
 .topbar ul li a{color:#f0f0f0;border-right:1px solid #f0f0f0;padding:0 13px;}
-.slideshow{margin-top:7px;}
-#footer{background: url('images/footer.gif') no-repeat 0 0;width:960px;height:46px;padding-bottom:13px;}
+.homeleft{float:left;width:639px;}
+.homeleft ul,.homeleft ol{margin-left:0;}
+.homeleft h3{padding:28px 0 28px 0;}
+.homeleft h4{padding:0px 0 28px 0;font-size:16px;}
+.homeleft .content{padding-left:18px;}
+.side{float:right;width:250px;padding-top:28px;}
+.home .side{padding-top:0px;}
+.homeproduct{background: url('images/homeproduct.gif') no-repeat 0 0;height:594px;}
+.homeproduct ul{list-style:none;padding-top:48px;}
+.homeproduct ul li{background: url('images/arrow.gif') no-repeat 0 50%;height:50px;padding-left:30px;border-bottom:1px solid #cbcbcb;line-height:50px;}
+.homeproduct ul li a{color:#616161;}
+.featuredimg{background: url('images/featuredimg.gif') no-repeat 0 0;height:184px;width:132px;float:left;position:relative;}
+.featuredimg img{position:absolute;left:15px;top:23px;}
+.companyintro p{width:502px;float:right;padding-top:16px;line-height:18px;}
+.newscenter h2{font-size:14px;margin-bottom:12px;}
+.newsblock{padding:20px 0 17px 15px;}
+.newsblock p{color:#757575;line-height:18px;}
+.map{float:left;border:3px solid #ffffff;-moz-box-shadow:0px 0px 5px #b2b2b2;-webkit-box-shadow:0px 0px 5px #b2b2b2;box-shadow:0px 0px 5px #b2b2b2;}
+.contactwrap{padding-left:24px;}
+.contactinfo{list-style:none;font-size:14px;line-height:22px;}
+#footer{background: url('images/footer.gif') no-repeat 0 0;width:960px;height:46px;padding-bottom:13px;margin-top:28px;}
 #footer p{line-height:46px;padding-left:24px;}
 
 /* general */
