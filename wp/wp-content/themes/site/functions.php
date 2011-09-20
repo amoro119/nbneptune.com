@@ -480,6 +480,12 @@ function twentyten_posted_on() {
 }
 endif;
 
+add_action( 'admin_menu', 'my_page_excerpt_meta_box' );
+ 
+function my_page_excerpt_meta_box() {
+    add_meta_box( 'postexcerpt', __('Excerpt'), 'post_excerpt_meta_box', 'page', 'normal', 'core' );
+}
+
 if ( ! function_exists( 'twentyten_posted_in' ) ) :
 /**
  * Prints HTML with meta information for the current post (category, tags and permalink).

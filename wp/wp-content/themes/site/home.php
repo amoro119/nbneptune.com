@@ -18,7 +18,7 @@ get_header(); ?>
 					<?php 
 						$page_id = 7;
 						$page_data = get_page( $page_id );
-						$content = apply_filters('the_content', $page_data->post_content);
+						$content = $page_data->post_excerpt;
 						echo $content; // Output Content
 					?>
 					<a href="#">Read More</a>
