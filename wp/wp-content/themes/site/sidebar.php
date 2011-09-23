@@ -13,8 +13,8 @@
 					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'menu' => '边栏产品列表' ) ); ?>
 				</div>
 				<div>
-					<a href="#"><img src="/images/kehuzhongxin.jpg"></a>
+					<a href="/?page_id=13"><img src="/images/kehuzhongxin.jpg"></a>
 					<a href="#"><img src="/images/qiyewenhua.jpg"></a>
-					<a href="#"><img src="/images/rongyuzizhi.jpg"></a>
+					<a href="/?page_id=15"><img src="/images/rongyuzizhi.jpg"></a>
 				</div>
 </div>

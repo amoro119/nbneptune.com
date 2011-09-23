@@ -6,7 +6,7 @@
 
 get_header(); ?>
 		<div class="slideshow">
-		   <img src="/images/slideshow.jpg">
+		  <?php show_islidex()?>
 		</div>
 		<div id="main">
 			<div class="homeleft" role="main">
@@ -15,23 +15,34 @@ get_header(); ?>
 					<div class="featuredimg">
 						<img src="/images/pic.jpg">
 					</div>
-					<?php 
+					<p>
+						<?php 
 						$page_id = 7;
 						$page_data = get_page( $page_id );
 						$content = $page_data->post_excerpt;
 						echo $content; // Output Content
 					?>
-					<a href="#">Read More</a>
-				</div>
-				<div class="newproduct">
-					<h1><img src="/images/xinpinjieshao.gif"></h1>
+					</p>					
+					<a style="text-decoration:underline;color:#cf2500;padding-right:20px" href="#">查看详细</a>
+					<div class="clear"></div>
 				</div>
 				<div class="newscenter">
-					<h1><img src="/images/xinwenzhongxin.gif"></h1>
+					<div class="title"><a href="/?cat=5">更多新闻</a></div>
 					<div class="newsblock">
-						<h2>俄称中国造船业完成量明显增加</h2>
-						<p>据俄罗斯军工新闻网3月29日报道，2011年1月至2月中国造船厂建成的船只数量同比增长了7.8%，完成的船舶吨位总和为840万吨……</p>
+					<ul  class="newslist">
+					<?php $posts = query_posts($query_string . 'posts_per_page=5&orderby=date&cat=8'); ?>
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<li>
+<a href="<?php the_permalink() ?>"><?php the_title(); ?></a><span class="date"><?php the_time('Y-m-j') ?></span>
+					</li>
+					<?php endwhile; endif;wp_reset_query(); ?>
+					</ul>
+
 					</div>
+				</div>
+					<div class="newproduct">
+					<div class="title"><a href="/?cat=6">更多新品</a></div>
+					<?php wp_carousel(0); ?>
 				</div>
 			</div><!-- #content -->
 			<?php get_sidebar(); ?>

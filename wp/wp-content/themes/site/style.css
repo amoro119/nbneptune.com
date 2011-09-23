@@ -168,8 +168,8 @@ body, select, input, textarea {
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-a, a:active, a:visited { color: #afa491; text-decoration:none;}
-a:hover { color: #8fb931; }
+a, a:active, a:visited { color: #000; text-decoration:none;}
+a:hover { color: #cf2500; }
 .pink,a.pink,a.pink:active, a.pink:visited{color: #ecb9b7;}
 .green,a.green,a.green:active, a.green:visited{color: #8fb931;}
 
@@ -197,13 +197,14 @@ textarea{background:#fff;}
 .homeleft .content{padding-left:18px;}
 .side{float:right;width:250px;padding-top:28px;}
 .home .side{padding-top:0px;}
-.homeproduct{background: url('images/homeproduct.gif') no-repeat 0 0;height:594px;}
+.homeproduct{background: url('images/homeproduct.gif') no-repeat 0 0;height:474px;}
 .homeproduct ul{list-style:none;padding-top:48px;}
 .homeproduct ul li{background: url('images/arrow.gif') no-repeat 0 50%;height:50px;padding-left:30px;border-bottom:1px solid #cbcbcb;line-height:50px;}
 .homeproduct ul li a{color:#616161;}
 .featuredimg{background: url('images/featuredimg.gif') no-repeat 0 0;height:184px;width:132px;float:left;position:relative;}
 .featuredimg img{position:absolute;left:15px;top:23px;}
 .companyintro p{width:502px;float:right;padding-top:16px;line-height:18px;}
+.companyintro a{float:right;}
 .newscenter h2{font-size:14px;margin-bottom:12px;}
 .newsblock{padding:20px 0 17px 15px;}
 .newsblock p{color:#757575;line-height:18px;}
@@ -212,6 +213,24 @@ textarea{background:#fff;}
 .contactinfo{list-style:none;font-size:14px;line-height:22px;}
 #footer{background: url('images/footer.gif') no-repeat 0 0;width:960px;height:46px;padding-bottom:13px;margin-top:28px;}
 #footer p{line-height:46px;padding-left:24px;}
+.content p{text-indent:2em;line-height:22px;}
+.productlist{list-style:none;}
+.productlist li{float:left;margin:17px 8px 0 9px;display:inline;}
+.productlist li img{border:5px solid #e5e5e5;}
+.productlist li h1{text-align:center;padding:18px 0 1px 0;}
+.productlist li a{color:#000;}
+.peijian{margin:20px 0;}
+.peijian .title{background: url('/images/peijian.gif') no-repeat 0 0;width:619px;height:43px;line-height:43px;text-align:right;padding-right:20px;text-decoration:underline;}
+.jiushengfa .title{background: url('/images/jiushengfa.gif') no-repeat 0 0;width:619px;height:43px;line-height:43px;text-align:right;padding-right:20px;text-decoration:underline;}
+.wp-pagenavi{float:right;margin-top:50px;display:inline;}
+.caption-bottom{border-width:0px !important;font-size:14px!important;}
+.newproduct{padding-bottom: 20px;}
+.newslist{list-style:none;}
+.newslist li{line-height:36px;font-size:14px;background: url('/images/news_dot1.jpg') no-repeat left 50%;padding-left:12px;}
+.newslist .date{float:right;font-size:12px;color:#666666;}
+h4.title{text-align:center;}
+.newscenter .title{background: url('/images/xinwenzhongxin.gif') no-repeat 0 0;height:43px;line-height:43px;text-align:right;padding-right:20px;text-decoration:underline;}
+.newproduct .title{background: url('/images/xinpinjieshao.gif') no-repeat 0 0;height:43px;line-height:43px;text-align:right;padding-right:20px;text-decoration:underline;}
 
 /* general */
 .left{float:left;}

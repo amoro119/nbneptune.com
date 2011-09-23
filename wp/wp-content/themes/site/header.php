@@ -56,7 +56,7 @@
   <div id="container">
     <div id="header">
         <div class="logo">
-            <img src="/images/logo.gif">
+           <a href="/"><img src="/images/logo.gif"></a>
         </div>
         <div id="access" role="navigation">
 			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
@@ -66,7 +66,7 @@
 		<div class="clear"></div>
 		<div class="topbar">
 			<ul>
-			   <li><a href="#">联系我们</a></li>
+			   <li><a href="/?page_id=13">联系我们</a></li>
 			   <li><a href="#">新浪微博</a></li>
 			   <li><a class="last" href="#">Email</a></li>
 			</ul>

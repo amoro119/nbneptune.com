@@ -4,7 +4,7 @@ Author URI: http://www.642weather.com/weather/scripts.php
 Donate link: http://www.FastSecureContactForm.com/donate
 Tags: Akismet, captcha, contact, contact form, form, mail, email, spam, multilingual, wpmu, buddypress
 Requires at least: 2.8
-Tested up to: 3.2
+Tested up to: 3.2.1
 Stable tag: trunk
 
 A super customizable contact form that lets your visitors send you email. Blocks all automated spammers. No templates to mess with.
@@ -184,6 +184,13 @@ For more help... [See the official FAQ at FastSecureContactForm.com](http://www.
 
 == Changelog ==
 
+- Fix default text could not be 0.
+- Fix HTML validation with date field.
+- Fix rows and cols extra field atrributes.
+- Fix javascript console error on date calendar popup.
+
+= 3.0.3.2 =
+- (27 Jul 2011) - Fixed medium XSS HTB23036 - as advised by High-Tech Bridge SA Security Research Lab.
 - Fix, added missing 00 to 24 hour time select.
 
 = 3.0.3.1 =
