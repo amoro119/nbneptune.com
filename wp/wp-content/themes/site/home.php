@@ -6,7 +6,7 @@
 
 get_header(); ?>
 		<div class="slideshow">
-		  <?php show_islidex()?>
+		  <?php if (function_exists('wp_flash_img_show')) {wp_flash_img_show('default');} ?>
 		</div>
 		<div id="main">
 			<div class="homeleft" role="main">
