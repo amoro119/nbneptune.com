@@ -188,7 +188,7 @@ textarea{background:#fff;}
 .topbar{background: url('images/topbar-bg.gif') no-repeat 0 0;width:960px;height:36px;margin-top:25px;line-height:36px;}
 .home .topbar{margin-bottom:7px;}
 .topbar ul{list-style:none;}
-.topbar ul li{float:left;}
+.topbar ul li{float:left;color:#f0f0f0;}
 .topbar ul li a{color:#f0f0f0;border-right:1px solid #f0f0f0;padding:0 13px;}
 .homeleft{float:left;width:639px;}
 .homeleft ul,.homeleft ol{margin-left:0;}

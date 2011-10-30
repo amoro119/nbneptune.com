@@ -23,7 +23,7 @@ get_header(); ?>
 						echo $content; // Output Content
 					?>
 					</p>					
-					<a style="text-decoration:underline;color:#cf2500;padding-right:20px" href="#">查看详细</a>
+					<a style="text-decoration:underline;color:#cf2500;padding-right:20px" href="/?page_id=7">查看详细</a>
 					<div class="clear"></div>
 				</div>
 				<div class="newscenter">

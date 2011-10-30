@@ -66,11 +66,8 @@
 		<div class="clear"></div>
 		<div class="topbar">
 			<ul>
-			   <li><a href="/?page_id=13">联系我们</a></li>
-			   <li><a href="#">新浪微博</a></li>
-			   <li><a class="last" href="#">Email</a></li>
-			</ul>
-			<img src="/images/rss.gif">
+			   <li>宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 86-021-58947671-72-73&nbsp;&nbsp;&nbsp;&nbsp;传真 : 86-021-58945098</li>			   
+			</ul>			
 		</div>
 		<div class="clear"></div>
     </div>
