@@ -66,7 +66,7 @@
 		<div class="clear"></div>
 		<div class="topbar">
 			<ul>
-			   <li>宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 86-021-58947671-72-73&nbsp;&nbsp;&nbsp;&nbsp;传真 : 86-021-58945098</li>			   
+			   <li>宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510</li>			   
 			</ul>			
 		</div>
 		<div class="clear"></div>
