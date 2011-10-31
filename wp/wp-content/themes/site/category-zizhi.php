@@ -11,7 +11,7 @@ get_header(); ?>
 <div id="main">
 			<div class="homeleft" role="main">
 				<div class="content">
-				<h3><img src="/images/title_peijian.gif" alt="" /></h3>
+				<h3><img src="/images/title_zizhi.gif" alt="" /></h3>
 				<div class="peijian">
 				<ul  class="productlist">
 					<?php $posts = query_posts($query_string . '&orderby=date'); ?>
