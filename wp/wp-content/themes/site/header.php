@@ -65,8 +65,10 @@
 		</div><!-- #access -->
 		<div class="clear"></div>
 		<div class="topbar">
-			<ul>
-			   <li>宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510</li>			   
+			<ul>				
+			   <li style="margin-right:270px">&nbsp;&nbsp;&nbsp;&nbsp;宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520</li>
+			   <li><a href="">中文</a></li>
+			   <li><a  class="last" href="">English</a></li>	   	   
 			</ul>			
 		</div>
 		<div class="clear"></div>
