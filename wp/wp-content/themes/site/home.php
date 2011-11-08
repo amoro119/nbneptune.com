@@ -11,7 +11,7 @@ get_header(); ?>
 		<div id="main">
 			<div class="homeleft" role="main">
 				<div class="companyintro">
-					<h1><img src="/images/gongsijianjie.gif"></h1>
+					<h1><?php _e("<!--:en--><img src='/images/gongsijianjie_en.gif'><!--:--><!--:zh--><img src='/images/gongsijianjie.gif'><!--:-->"); ?></h1>
 					<div class="featuredimg">
 						<img src="/images/pic.jpg">
 					</div>
@@ -27,7 +27,7 @@ get_header(); ?>
 					<div class="clear"></div>
 				</div>
 				<div class="newscenter">
-					<div class="title"><a href="/?cat=5">更多新闻</a></div>
+					<div class="title relative"><?php _e("<!--:en--><img src='/images/xinwenzhongxin_en.gif'><!--:--><!--:zh--><img src='/images/xinwenzhongxin.gif'><!--:-->"); ?><a class="absolute" href="/?cat=5">更多新闻</a></div>
 					<div class="newsblock">
 					<ul  class="newslist">
 					<?php $posts = query_posts($query_string . 'posts_per_page=5&orderby=date&cat=8'); ?>
@@ -41,7 +41,7 @@ get_header(); ?>
 					</div>
 				</div>
 					<div class="newproduct">
-					<div class="title"><a href="/?cat=6">更多新品</a></div>
+					<div class="title relative"><?php _e("<!--:en--><img src='/images/xinpinjieshao_en.gif'><!--:--><!--:zh--><img src='/images/xinpinjieshao.gif'><!--:-->"); ?><a class="absolute" href="/?cat=6">更多新品</a></div>
 					<?php wp_carousel(0); ?>
 				</div>
 			</div><!-- #content -->

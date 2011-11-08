@@ -185,11 +185,19 @@ textarea{background:#fff;}
 #access ul{list-style:none;}
 #access ul li{float:left;height:113px;width:77px;background-image: url('images/nav-bg.gif');background-repeat:no-repeat;background-position:0 -113px;text-align:center;margin-left:24px;display:inline;}
 #access ul li a{padding-top:80px;display:block;font-size:14px;color:#000;}
-.topbar{background: url('images/topbar-bg.gif') no-repeat 0 0;width:960px;height:36px;margin-top:25px;line-height:36px;}
+.topbar{background: url('images/topbar-bg.gif') no-repeat 0 0;width:960px;height:36px;margin-top:25px;line-height:36px;position:relative;}
+.qtrans_language_chooser{position:absolute;right:0;}
+.qtrans_language_chooser li{padding:0 13px;}
 .home .topbar{margin-bottom:7px;}
 .topbar ul{list-style:none;}
 .topbar ul li{float:left;color:#f0f0f0;}
-.topbar ul li a{color:#f0f0f0;border-right:1px solid #f0f0f0;padding:0 13px;}
+.topbar ul li a{color:#f0f0f0;}
+.qtrans_flag_en {
+background: url(http://nbneptune.com/wp-content/plugins/qtranslate/flags/gb.png) no-repeat center left !important;
+}
+.qtrans_flag_zh {
+background: url(http://nbneptune.com/wp-content/plugins/qtranslate/flags/cn.png) no-repeat center left !important;
+}
 .homeleft{float:left;width:639px;}
 .homeleft ul,.homeleft ol{margin-left:0;}
 .homeleft h3{padding:28px 0 28px 0;}
@@ -229,9 +237,12 @@ textarea{background:#fff;}
 .newslist li{line-height:36px;font-size:14px;background: url('/images/news_dot1.jpg') no-repeat left 50%;padding-left:12px;}
 .newslist .date{float:right;font-size:12px;color:#666666;}
 h4.title{text-align:center;}
-.newscenter .title{background: url('/images/xinwenzhongxin.gif') no-repeat 0 0;height:43px;line-height:43px;text-align:right;padding-right:20px;text-decoration:underline;}
-.newproduct .title{background: url('/images/xinpinjieshao.gif') no-repeat 0 0;height:43px;line-height:43px;text-align:right;padding-right:20px;text-decoration:underline;}
+.newscenter .title{height:43px;line-height:43px;padding-right:20px;}
+.newscenter .title a{text-decoration:underline;right:20px;}
+.newproduct .title{height:43px;line-height:43px;padding-right:20px;}
+.newproduct .title a{text-decoration:underline;right:20px;}
 .slideshow{margin-bottom:20px;}
+.sideen{background: url('images/homeproduct_en.gif') no-repeat 0 0 !important;}
 
 /* general */
 .left{float:left;}

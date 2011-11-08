@@ -56,7 +56,7 @@
   <div id="container">
     <div id="header">
         <div class="logo">
-           <a href="/"><img src="/images/logo.gif"></a>
+           <a href="/"><?php _e("<!--:en--><img src='/images/logo_en.gif'><!--:--><!--:zh--><img src='/images/logo.gif'><!--:-->"); ?></a>
         </div>
         <div id="access" role="navigation">
 			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
@@ -66,10 +66,9 @@
 		<div class="clear"></div>
 		<div class="topbar">
 			<ul>				
-			   <li style="margin-right:270px">&nbsp;&nbsp;&nbsp;&nbsp;宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520</li>
-			   <li><a href="">中文</a></li>
-			   <li><a  class="last" href="">English</a></li>	   	   
-			</ul>			
+			   <li><?php _e("<!--:en-->NEWS<!--:--><!--:zh-->&nbsp;&nbsp;&nbsp;&nbsp;宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520<!--:-->"); ?></li> 	   
+			</ul>
+				<?php echo qtrans_generateLanguageSelectCode('both'); ?>
 		</div>
 		<div class="clear"></div>
     </div>

@@ -11,7 +11,7 @@ get_header(); ?>
 <div id="main">
 			<div class="homeleft" role="main">
 				<div class="content">
-				<h3><img src="/images/title_news.gif" alt="" /></h3>
+				<h3><?php _e("<!--:en--><img src='/images/title_news_en.gif'><!--:--><!--:zh--><img src='/images/title_news.gif' /><!--:-->"); ?></h3>
 				<div class="news">
 				<ul  class="newslist">
 					<?php $posts = query_posts($query_string . '&orderby=date'); ?>
