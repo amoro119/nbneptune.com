@@ -13,7 +13,7 @@
 
 	<div id="footer" role="contentinfo">
 		<div class="copyright">
-            <p>宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520&nbsp;&nbsp;沪ICP备07507270号</p>
+            <p><?php _e("<!--:en-->Ningbo Neptune Life-saving Equipment Co., Ltd.&nbsp;&nbsp;&nbsp;&nbsp;TEL:0086-574-83551500&nbsp;&nbsp;&nbsp;&nbsp;FAX:0086-574-83551510&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备07507270号<!--:--><!--:zh-->宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备07507270号<!--:-->"); ?></p>
         </div>
 	</div><!-- #footer -->
 

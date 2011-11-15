@@ -20,8 +20,8 @@ get_header(); ?>
 						$page_id = 7;
 						$page_data = get_page( $page_id );
 						$content = $page_data->post_excerpt;
-						echo $content; // Output Content
-					?>
+						_e("$content");
+						?>						
 					</p>					
 					<a style="text-decoration:underline;color:#cf2500;padding-right:20px" href="/?page_id=7">查看详细</a>
 					<div class="clear"></div>

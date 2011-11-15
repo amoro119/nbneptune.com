@@ -66,7 +66,7 @@
 		<div class="clear"></div>
 		<div class="topbar">
 			<ul>				
-			   <li><?php _e("<!--:en-->NEWS<!--:--><!--:zh-->&nbsp;&nbsp;&nbsp;&nbsp;宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520<!--:-->"); ?></li> 	   
+			   <li><?php _e("<!--:en-->&nbsp;&nbsp;&nbsp;&nbsp;Ningbo Neptune Life-saving Equipment Co., Ltd.&nbsp;&nbsp;&nbsp;&nbsp;TEL:0086-574-83551500&nbsp;&nbsp;&nbsp;&nbsp;FAX:0086-574-83551510<!--:--><!--:zh-->&nbsp;&nbsp;&nbsp;&nbsp;宁波海神救生设备有限公司&nbsp;&nbsp;&nbsp;&nbsp;联系电话 : 0574-83551500&nbsp;&nbsp;&nbsp;&nbsp;传真 : 0574-83551510,0574-83551520<!--:-->"); ?></li> 	   
 			</ul>
 				<?php echo qtrans_generateLanguageSelectCode('both'); ?>
 		</div>

@@ -192,6 +192,7 @@ textarea{background:#fff;}
 .topbar ul{list-style:none;}
 .topbar ul li{float:left;color:#f0f0f0;}
 .topbar ul li a{color:#f0f0f0;}
+.topbar ul li a span{color: #F0F0F0;}
 .qtrans_flag_en {
 background: url(http://nbneptune.com/wp-content/plugins/qtranslate/flags/gb.png) no-repeat center left !important;
 }
